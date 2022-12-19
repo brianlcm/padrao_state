@@ -18,6 +18,10 @@ public class Carro {
         this.estado = estado;
     }
 
+    public String getNomeEstado() {
+        return estado.getEstado();
+    }
+
     public Carro() {
         this.estado = CarroEstadoDisponivel.getInstance();
     }
